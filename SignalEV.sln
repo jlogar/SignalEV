@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalEV", "SignalEV.csproj", "{9C05B032-D98B-424D-9F43-6A0912AAC4EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalEV", "SignalEV\SignalEV.csproj", "{9C05B032-D98B-424D-9F43-6A0912AAC4EA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E00AB2E8-67C1-45F4-9047-E172ED282CEB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6FF3C143-C3DE-4D4A-B28E-646A45DC37D1}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\nuget.exe = .nuget\nuget.exe
