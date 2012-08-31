@@ -13,7 +13,7 @@ namespace SignalEV
 
         public static void PublishEvent<TEvent>(this IHubContext hubContext, TEvent @event)
         {
-            var clients = (ClientAgent)hubContext.Clients;
+            var clients = (IClientProxy)hubContext.Clients;
             clients.Invoke(EventName(typeof(TEvent)), new object[] { @event });
         }
     }
